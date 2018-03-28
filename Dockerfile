@@ -9,6 +9,7 @@ libsqlite3-dev \
 ruby-full \
 net-tools \
 openssh-client \
+cron \
 && apt-get -y autoremove \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/*
